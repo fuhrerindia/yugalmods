@@ -1,5 +1,9 @@
 # Yugalmods
 This library is successor of Yugal's main module file, extra methods for styles and other miscellaneous functions are removed from built-in `yugal.js` file in `modules/` directory, hence to use them, you need to install this library.
+## Installation
+```bash
+yugal --install https://github.com/sinhapaurush/yugalmods.git
+```
 ## yugal.include(filepath);
 Adds external JavaScript to `<body>` script added by this method can not undone. This can not be undone. Accepts one argument as JS path in string.
 ## yugal.files(arrayofpaths);
